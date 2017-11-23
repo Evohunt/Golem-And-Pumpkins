@@ -15,7 +15,7 @@ public class Spawner : MonoBehaviour {
 
 	IEnumerator StartSpawning() {
 
-		yield return new WaitForSeconds (Random.Range(1f, 3.5f));
+		yield return new WaitForSeconds (Random.Range(1.8f, 3.5f));
 		Instantiate (pumpkin, spawnPoints[Random.Range(0, spawnPoints.Length)].position, Quaternion.identity);
 
 		StartCoroutine(StartSpawning());
