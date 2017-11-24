@@ -289,7 +289,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
+  m_BackGroundColor: {r: 0.058823526, g: 0.026384082, b: 0.026384082, a: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -576,13 +576,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1916577459}
-  m_LocalRotation: {x: 0.08715578, y: 0, z: 0, w: 0.9961947}
+  m_LocalRotation: {x: 0.13052616, y: 0, z: 0, w: 0.9914449}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 30, y: 0.1, z: 50}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 10, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 15, y: 0, z: 0}
 --- !u!1001 &2044634463
 Prefab:
   m_ObjectHideFlags: 0
@@ -596,11 +596,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4574344921463998, guid: 9d32addae3cdcd44d8429c6409cb93e7, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -3.54
+      value: -4.73
       objectReference: {fileID: 0}
     - target: {fileID: 4574344921463998, guid: 9d32addae3cdcd44d8429c6409cb93e7, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 20
+      value: 18.3
       objectReference: {fileID: 0}
     - target: {fileID: 4574344921463998, guid: 9d32addae3cdcd44d8429c6409cb93e7, type: 2}
       propertyPath: m_LocalRotation.x

@@ -6,7 +6,7 @@ public class PumpkinScript : MonoBehaviour {
 
 	void Update() {
 
-		if (transform.position.y < -3f) {
+		if (transform.position.y < -4f) {
 
 			Destroy(gameObject);
 
